@@ -1,0 +1,24 @@
+﻿.mouse-follower {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(108, 99, 255, 0.15), transparent);
+  pointer-events: none;
+  z-index: 9998;
+  mix-blend-mode: screen;
+}
+
+.mouse-follower__ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 1px solid rgba(108, 99, 255, 0.12);
+  pointer-events: none;
+  z-index: 9997;
+}
