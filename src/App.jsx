@@ -9,14 +9,14 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import BackToTop from './components/BackToTop/BackToTop';
-import MouseFollower from './components/MouseFollower/MouseFollower';
+
 import FloatingElements from './components/FloatingElements/FloatingElements';
 
 function App() {
   return (
     <>
       <BackgroundVideo />
-      <MouseFollower />
+      
       <FloatingElements />
       <Navbar />
       <main>
